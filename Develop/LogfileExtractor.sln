@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogfileExtractor.DataModel"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogfileExtractor.Export.Test", "LogfileExtractor.Export.Test\LogfileExtractor.Export.Test.csproj", "{F3DDD2EC-4CB7-4744-BE66-26DA530354A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogFileExtractor.App", "LogFileExtractor.App\LogFileExtractor.App.csproj", "{36898E6F-D660-46E7-8338-C9DE9FF555B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F3DDD2EC-4CB7-4744-BE66-26DA530354A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3DDD2EC-4CB7-4744-BE66-26DA530354A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3DDD2EC-4CB7-4744-BE66-26DA530354A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36898E6F-D660-46E7-8338-C9DE9FF555B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36898E6F-D660-46E7-8338-C9DE9FF555B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36898E6F-D660-46E7-8338-C9DE9FF555B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36898E6F-D660-46E7-8338-C9DE9FF555B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
