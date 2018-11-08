@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ItemExtractorTest.cs" />
     <Compile Include="LineExtractorTest.cs" />
+    <Compile Include="LogFileExtractorTest.cs" />
     <Compile Include="TagFinderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
