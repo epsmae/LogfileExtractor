@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogfileExtractor.Service", "LogfileExtractor.Service\LogfileExtractor.Service.csproj", "{1139AD4A-BAF5-4F47-994D-347E77D36E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogfileExtractor.Service.Test", "LogfileExtractor.Service.Test\LogfileExtractor.Service.Test.csproj", "{C49896BF-EC37-46BA-93A6-BE5E62421BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1139AD4A-BAF5-4F47-994D-347E77D36E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1139AD4A-BAF5-4F47-994D-347E77D36E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1139AD4A-BAF5-4F47-994D-347E77D36E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1139AD4A-BAF5-4F47-994D-347E77D36E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49896BF-EC37-46BA-93A6-BE5E62421BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49896BF-EC37-46BA-93A6-BE5E62421BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49896BF-EC37-46BA-93A6-BE5E62421BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49896BF-EC37-46BA-93A6-BE5E62421BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21F59B85-B0F0-45D5-BCD1-9E21FBCA7698}
+	EndGlobalSection
+EndGlobal
