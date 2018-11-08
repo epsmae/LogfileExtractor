@@ -1,4 +1,4 @@
-﻿namespace LogfileExtractor.Service
+﻿namespace LogfileExtractor.DataModel
 {
     public abstract class ValueItem
     {

@@ -1,4 +1,5 @@
 ﻿using System;
+using LogfileExtractor.DataModel;
 
 namespace LogfileExtractor.Service
 {

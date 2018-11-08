@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using LogfileExtractor.DataModel;
 using NUnit.Framework;
 
 namespace LogfileExtractor.Service.Test

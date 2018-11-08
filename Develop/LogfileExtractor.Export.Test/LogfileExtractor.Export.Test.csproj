@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C49896BF-EC37-46BA-93A6-BE5E62421BB8}</ProjectGuid>
+    <ProjectGuid>{F3DDD2EC-4CB7-4744-BE66-26DA530354A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogfileExtractor.Service.Test</RootNamespace>
-    <AssemblyName>LogfileExtractor.Service.Test</AssemblyName>
+    <RootNamespace>LogfileExtractor.Export.Test</RootNamespace>
+    <AssemblyName>LogfileExtractor.Export.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsvHelper, Version=8.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.8.2.0\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
@@ -47,27 +50,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ItemExtractorTest.cs" />
-    <Compile Include="LineExtractorTest.cs" />
-    <Compile Include="LogFileExtractorTest.cs" />
-    <Compile Include="TagFinderTest.cs" />
+    <Compile Include="CsvExporterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="TestData\logfile.log">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LogfileExtractor.DataModel\LogfileExtractor.DataModel.csproj">
       <Project>{2fb001be-8afb-4c3d-91b2-b5c6c3519627}</Project>
       <Name>LogfileExtractor.DataModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LogfileExtractor.Service\LogfileExtractor.Service.csproj">
-      <Project>{1139ad4a-baf5-4f47-994d-347e77d36e46}</Project>
-      <Name>LogfileExtractor.Service</Name>
+    <ProjectReference Include="..\LogfileExtractor.Export\LogfileExtractor.Export.csproj">
+      <Project>{f14bc0fc-b653-47a3-b088-21a1946fd4d0}</Project>
+      <Name>LogfileExtractor.Export</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

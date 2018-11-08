@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LogfileExtractor.Service
+namespace LogfileExtractor.DataModel
 {
     public class LineItem
     {

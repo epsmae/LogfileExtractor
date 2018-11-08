@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using LogfileExtractor.DataModel;
+using NUnit.Framework;
 
 namespace LogfileExtractor.Service.Test
 {
